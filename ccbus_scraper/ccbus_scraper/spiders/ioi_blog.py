@@ -9,5 +9,7 @@ class QuotesSpider(scrapy.Spider):
 
     def parse(self, response):
         if response.status == 200:
-            self.log(f"Scraped {response.url}")
-            return {"contents": response.text}
+            for line in response.css("div.media-card__header a::text").getall():
+                pieces = line.split("Interview:")
+                if len(pieces) == 2:
+                    yield pieces[1].strip()
