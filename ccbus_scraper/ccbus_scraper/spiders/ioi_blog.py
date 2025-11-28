@@ -1,5 +1,8 @@
-from pathlib import Path
 import scrapy
+
+EP_TITLE = "div.media-card__header a::text"
+NAV_BUTTON = "nav.justify-center a.btn::attr(href)"
+
 
 class QuotesSpider(scrapy.Spider):
     name = "ioi_blog"
@@ -8,9 +11,13 @@ class QuotesSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for line in response.css("div.media-card__header a::text").getall():
+        for line in response.css(EP_TITLE).getall():
             pieces = line.split("Interview:")
             if len(pieces) == 2:
-                yield {"person1": "Henry Fnord",
-                       "person2": pieces[1].strip(),
-                       "relationship": "allied"}
+                yield {
+                    "person1": "Henry Fnord",
+                    "person2": pieces[1].strip(),
+                    "relationship": "allied",
+                }
+        for link in response.css(NAV_BUTTON).getall():
+            yield scrapy.Request(response.urljoin(link))
