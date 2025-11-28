@@ -22,10 +22,11 @@ class QuotesSpider(scrapy.Spider):
             if len(pieces) == 2:
                 body = "\n".join(card.css(EP_BODY).getall())
                 sentiment = analyzer.polarity_scores(body)["compound"]
+                relationship = "allied" if sentiment > -0.5 else "opposed"
                 yield {
                     "person1": "Henry Fnord",
                     "person2": pieces[1].strip(),
-                    "sentiment": sentiment,
+                    "relationship": relationship,
                 }
         for link in response.css(NAV_BUTTON).getall():
             yield scrapy.Request(response.urljoin(link))
