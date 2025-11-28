@@ -1,7 +1,11 @@
 import scrapy
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 EP_TITLE = "div.media-card__header a::text"
+EP_BODY = "div.media-card__body p::text"
+
 NAV_BUTTON = "nav.justify-center a.btn::attr(href)"
+analyzer = SentimentIntensityAnalyzer()
 
 
 class QuotesSpider(scrapy.Spider):
@@ -11,13 +15,17 @@ class QuotesSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for line in response.css(EP_TITLE).getall():
+        for card in response.css("div.media-card"):
+            line = card.css(EP_TITLE).get()
+            # `card` supports css paths like `response` does
             pieces = line.split("Interview:")
             if len(pieces) == 2:
+                body = "\n".join(card.css(EP_BODY).getall())
+                sentiment = analyzer.polarity_scores(body)["compound"]
                 yield {
                     "person1": "Henry Fnord",
                     "person2": pieces[1].strip(),
-                    "relationship": "allied",
+                    "sentiment": sentiment,
                 }
         for link in response.css(NAV_BUTTON).getall():
             yield scrapy.Request(response.urljoin(link))
