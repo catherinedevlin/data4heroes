@@ -1,3 +1,4 @@
+import jsonlines
 import scrapy
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
@@ -11,7 +12,7 @@ analyzer = SentimentIntensityAnalyzer()
 class QuotesSpider(scrapy.Spider):
     name = "ioi_blog"
     start_urls = [
-        "http://localhost:8000/blog.html",
+        "http://localhost:8000/pod.html",
     ]
 
     def parse(self, response):
@@ -24,9 +25,10 @@ class QuotesSpider(scrapy.Spider):
                 sentiment = analyzer.polarity_scores(body)["compound"]
                 relationship = "allied" if sentiment > -0.5 else "opposed"
                 yield {
-                    "person1": "Henry Fnord",
-                    "person2": pieces[1].strip(),
+                    "entity_1": {"type": "Person", "name": "Henry Fnord"},
+                    "entity_2": {"type": "Person", "name": pieces[1].strip()},
                     "relationship": relationship,
                 }
+
         for link in response.css(NAV_BUTTON).getall():
             yield scrapy.Request(response.urljoin(link))
