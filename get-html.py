@@ -5,6 +5,7 @@ import pandas as pd
 
 URL = "http://localhost:8000/ohio-supers.html"
 
+
 def json_rows(row):
     if row["Based in"]:
         yield {
@@ -27,9 +28,9 @@ def json_rows(row):
                 "relationship": "has",
             }
 
+
 frames = pd.read_html(URL)
-df = frames[0].fillna('')
+df = frames[0].fillna("")
 with jsonlines.Writer(sys.stdout) as writer:
     for idx, row in df.iterrows():
         writer.write_all(json_rows(row))
-
