@@ -1,0 +1,85 @@
+{"entity_1": {"type": "Person", "name": "The Trilobite"}, "entity_2": {"type": "Place", "name": "Silvania"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "The Trilobite"}, "entity_2": {"type": "Power", "name": "armor"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "The Trilobite"}, "entity_2": {"type": "Power", "name": "antennae"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Putin Bae"}, "entity_2": {"type": "Place", "name": "Mansfield"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Putin Bae"}, "entity_2": {"type": "Power", "name": "politics"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Putin Bae"}, "entity_2": {"type": "Power", "name": "wrestling"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Putin Bae"}, "entity_2": {"type": "Power", "name": "selective blindness"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Cardinal Virtue"}, "entity_2": {"type": "Place", "name": "Cincinnati"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Cardinal Virtue"}, "entity_2": {"type": "Power", "name": "flight"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Cardinal Virtue"}, "entity_2": {"type": "Power", "name": "angry beak"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Cardinal Virtue"}, "entity_2": {"type": "Power", "name": "moral purity"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Orville Wrong"}, "entity_2": {"type": "Place", "name": "Dayton"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Orville Wrong"}, "entity_2": {"type": "Power", "name": "invention"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Orville Wrong"}, "entity_2": {"type": "Power", "name": "armed ultralight"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Wilbur Wrong"}, "entity_2": {"type": "Place", "name": "Dayton"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Wilbur Wrong"}, "entity_2": {"type": "Power", "name": "invention"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Wilbur Wrong"}, "entity_2": {"type": "Power", "name": "armed ultralight"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Place", "name": "Dearborn"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Power", "name": "riches"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Power", "name": "invention"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Place", "name": "Wapokoneta"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Power", "name": "Super-strength"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Power", "name": "spaceship"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "The Thinker"}, "entity_2": {"type": "Place", "name": "Cleveland"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "The Thinker"}, "entity_2": {"type": "Power", "name": "introspection"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Blue Jacket"}, "entity_2": {"type": "Place", "name": "Chillicothe"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Blue Jacket"}, "entity_2": {"type": "Power", "name": "horsemanship"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Blue Jacket"}, "entity_2": {"type": "Power", "name": "crack shot"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Blue Jacket"}, "entity_2": {"type": "Power", "name": "oratory"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Captain Columbus"}, "entity_2": {"type": "Place", "name": "Columbus"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Captain Columbus"}, "entity_2": {"type": "Power", "name": "Super-strength"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Captain Columbus"}, "entity_2": {"type": "Power", "name": "flight"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Buckeye Bullet"}, "entity_2": {"type": "Place", "name": "Cleveland"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Buckeye Bullet"}, "entity_2": {"type": "Power", "name": "Super-speed"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Annie Oakley"}, "entity_2": {"type": "Place", "name": "Greenville"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Annie Oakley"}, "entity_2": {"type": "Power", "name": "marksmanship"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Annie Oakley"}, "entity_2": {"type": "Power", "name": "acrobatics"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Annie Oakley"}, "entity_2": {"type": "Power", "name": "healing"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "The Stealer"}, "entity_2": {"type": "Place", "name": "Pittsburgh"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "The Stealer"}, "entity_2": {"type": "Power", "name": "stealth"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Ohio Gosaimasu"}, "entity_2": {"type": "Place", "name": "Sandusky"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Ohio Gosaimasu"}, "entity_2": {"type": "Power", "name": "swordplay"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Ohio Gosaimasu"}, "entity_2": {"type": "Power", "name": "honor"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "The Hawk King"}, "entity_2": {"type": "Place", "name": "Hocking Hills"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "The Hawk King"}, "entity_2": {"type": "Power", "name": "flight"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "The Hawk King"}, "entity_2": {"type": "Power", "name": "Super-strength"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Airship Alice"}, "entity_2": {"type": "Place", "name": "Akron"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Airship Alice"}, "entity_2": {"type": "Power", "name": "blimp"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Airship Alice"}, "entity_2": {"type": "Power", "name": "stealth"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Motown Menace"}, "entity_2": {"type": "Place", "name": "Detroit"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Motown Menace"}, "entity_2": {"type": "Power", "name": "funk"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Motown Menace"}, "entity_2": {"type": "Power", "name": "beat"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Captain Cuyahoga"}, "entity_2": {"type": "Place", "name": "Cleveland"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Captain Cuyahoga"}, "entity_2": {"type": "Power", "name": "water control"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Captain Cuyahoga"}, "entity_2": {"type": "Power", "name": "generate fire"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Indian Jane"}, "entity_2": {"type": "Place", "name": "Bloomington"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Indian Jane"}, "entity_2": {"type": "Power", "name": "scholarship"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Indian Jane"}, "entity_2": {"type": "Power", "name": "Derring-do"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Defiance Dogman"}, "entity_2": {"type": "Place", "name": "Defiance"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Defiance Dogman"}, "entity_2": {"type": "Power", "name": "fangs"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Defiance Dogman"}, "entity_2": {"type": "Power", "name": "speed"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Loveland Frogman"}, "entity_2": {"type": "Place", "name": "Loveland"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Loveland Frogman"}, "entity_2": {"type": "Power", "name": "swimming"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Loveland Frogman"}, "entity_2": {"type": "Power", "name": "tongue"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Marvelous Mudhen"}, "entity_2": {"type": "Place", "name": "Toledo"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Marvelous Mudhen"}, "entity_2": {"type": "Power", "name": "swimming"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "The Wrong Brothers"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "Putin Bae"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "The Trilobite"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "Motown Menace"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "Cardinal Virtue"}, "relationship": "opposed"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "Dogman of Defiance"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "The Wrong Brothers"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "Putin Bae"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Henry Fnord"}, "entity_2": {"type": "Person", "name": "The Trilobite"}, "relationship": "allied"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Place", "name": "Toledo"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Place", "name": "Findlay"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Place", "name": "Findlay"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Astro-Thug"}, "entity_2": {"type": "Place", "name": "Findlay"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Bushido"}, "entity_2": {"type": "Place", "name": "Georgetown"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Stealer"}, "entity_2": {"type": "Place", "name": "Georgetown"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Place", "name": "Indianapolis"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Place", "name": "Indianapolis"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Gobleki Tepe"}, "entity_2": {"type": "Place", "name": "Indianapolis"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Place", "name": "Toledo"}, "relationship": "active_in"}
