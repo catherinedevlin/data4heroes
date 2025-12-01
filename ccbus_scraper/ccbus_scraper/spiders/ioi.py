@@ -1,4 +1,3 @@
-import jsonlines
 import scrapy
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
@@ -9,8 +8,8 @@ NAV_BUTTON = "nav.justify-center a.btn::attr(href)"
 analyzer = SentimentIntensityAnalyzer()
 
 
-class QuotesSpider(scrapy.Spider):
-    name = "ioi_blog"
+class IOISpider(scrapy.Spider):
+    name = "ioi"
     start_urls = [
         "http://localhost:8000/pod.html",
     ]

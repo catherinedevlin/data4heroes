@@ -1,0 +1,5 @@
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Bird", "name": "Cardinal Virtue"}, "relationship": "attacked"}
+{"entity_1": {"type": "Astro-Thug", "name": "Nell Strongarm"}, "entity_2": {"type": "Crime Capsule", "name": "N/A"}, "relationship": "used"}
+{"entity_1": {"type": "Cardinal Virtue", "name": "Cardinal Virtue"}, "entity_2": {"type": "Astro-Thug", "name": "Nell Strongarm"}, "relationship": "defended"}
+{"entity_1": {"type": "Crime Capsule", "name": "N/A"}, "entity_2": {"type": "Astro-Thug", "name": "Nell Strongarm"}, "relationship": "attacked"}
+{"entity_1": {"type": "Cardinal Virtue", "name": "Cardinal Virtue"}, "entity_2": {"type": "City Hall", "name": "N/A"}, "relationship": "protected"}

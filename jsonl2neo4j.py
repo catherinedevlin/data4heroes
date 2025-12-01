@@ -1,5 +1,6 @@
 import jsonlines
 from neo4j import GraphDatabase, RoutingControl
+import sys
 
 URI = "neo4j://localhost:7687"
 AUTH = ("neo4j", "4justice")
@@ -22,6 +23,6 @@ def save(driver, row):
 
 
 with GraphDatabase.driver(URI, auth=AUTH) as driver:
-    with jsonlines.open("heroes.jsonl") as reader:
+    with jsonlines.open(sys.argv[1]) as reader:
         for row in reader:
             save(driver, row)
