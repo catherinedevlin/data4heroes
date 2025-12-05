@@ -16,6 +16,8 @@ class ClevelandLLMSpider(scrapy.Spider):
         paragraphs = article_content.css("p::text").getall()
         text = "\n\n".join([title, *paragraphs])
         yield from ask_llm(text)
+        for anchor in article_content.css("a"):
+            yield response.follow(anchor)
 
 
 PROMPT = """
@@ -29,6 +31,25 @@ entity_1 and entity_2 should always have a "name" and a "type".
 
 [ {"entity_1": {"type": "Person", "name": "Motown Menace"}, "entity_2": {"type": "Person", "name": "Captain Columbus"}, "relationship": "fought"},
 {"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Person", "name": "Captain Columbus"}, "relationship": "helped"}, ]
+
+The output should be a list where each element adheres to the 
+pydantic RelationshipListModel, as defined thus:
+
+from pydantic import BaseModel, Field, constr 
+from typing import List 
+
+class EntityPerson(BaseModel):
+    name: str 
+    type: str = Field("Person", const=True)
+
+class EntityAny(BaseModel):
+    name: str 
+    type: constr(regex=r'^[A-Z][a-z]*$')  # capitalized string
+
+class RelationshipModel(BaseModel):
+    entity_1: EntityPerson 
+    entity_2: EntityAny 
+    relationship: constr(regex=r'^[a-zA-Z]+(_[a-zA-Z]+){0,2}$')
 
 Here is the article to summarize:
 """
