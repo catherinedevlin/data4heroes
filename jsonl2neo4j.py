@@ -13,7 +13,7 @@ def save(driver, row):
         f"MERGE (entity_2:{type2} {{name: $name_2}}) \n"
         f"MERGE (entity_1)-[:{relationship}]->(entity_2) \n"
     )
-    print(qry)
+    # print(qry)
     driver.execute_query(
         qry,
         name=row["entity_1"]["name"],

@@ -53,9 +53,9 @@
 {"entity_1": {"type": "Person", "name": "Captain Cuyahoga"}, "entity_2": {"type": "Place", "name": "Cleveland"}, "relationship": "based_in"}
 {"entity_1": {"type": "Person", "name": "Captain Cuyahoga"}, "entity_2": {"type": "Power", "name": "water control"}, "relationship": "has"}
 {"entity_1": {"type": "Person", "name": "Captain Cuyahoga"}, "entity_2": {"type": "Power", "name": "generate fire"}, "relationship": "has"}
-{"entity_1": {"type": "Person", "name": "Indian Jane"}, "entity_2": {"type": "Place", "name": "Bloomington"}, "relationship": "based_in"}
-{"entity_1": {"type": "Person", "name": "Indian Jane"}, "entity_2": {"type": "Power", "name": "scholarship"}, "relationship": "has"}
-{"entity_1": {"type": "Person", "name": "Indian Jane"}, "entity_2": {"type": "Power", "name": "Derring-do"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Place", "name": "Bloomington"}, "relationship": "based_in"}
+{"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Power", "name": "scholarship"}, "relationship": "has"}
+{"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Power", "name": "Derring-do"}, "relationship": "has"}
 {"entity_1": {"type": "Person", "name": "Defiance Dogman"}, "entity_2": {"type": "Place", "name": "Defiance"}, "relationship": "based_in"}
 {"entity_1": {"type": "Person", "name": "Defiance Dogman"}, "entity_2": {"type": "Power", "name": "fangs"}, "relationship": "has"}
 {"entity_1": {"type": "Person", "name": "Defiance Dogman"}, "entity_2": {"type": "Power", "name": "speed"}, "relationship": "has"}
@@ -77,9 +77,16 @@
 {"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Place", "name": "Findlay"}, "relationship": "active_in"}
 {"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Place", "name": "Findlay"}, "relationship": "active_in"}
 {"entity_1": {"type": "Person", "name": "Astro-Thug"}, "entity_2": {"type": "Place", "name": "Findlay"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Person", "name": "Nell Strongarm"}, "relationship": "encountered"}
+{"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Person", "name": "Astro-Thug"}, "relationship": "encountered"}
+{"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Person", "name": "Astro-Thug"}, "relationship": "encountered"}
 {"entity_1": {"type": "Person", "name": "Bushido"}, "entity_2": {"type": "Place", "name": "Georgetown"}, "relationship": "active_in"}
 {"entity_1": {"type": "Person", "name": "Stealer"}, "entity_2": {"type": "Place", "name": "Georgetown"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Bushido"}, "entity_2": {"type": "Person", "name": "Stealer"}, "relationship": "encountered"}
 {"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Place", "name": "Indianapolis"}, "relationship": "active_in"}
 {"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Place", "name": "Indianapolis"}, "relationship": "active_in"}
 {"entity_1": {"type": "Person", "name": "Gobleki Tepe"}, "entity_2": {"type": "Place", "name": "Indianapolis"}, "relationship": "active_in"}
+{"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Person", "name": "Indiana Jane"}, "relationship": "encountered"}
+{"entity_1": {"type": "Person", "name": "Virtue"}, "entity_2": {"type": "Person", "name": "Gobleki Tepe"}, "relationship": "encountered"}
+{"entity_1": {"type": "Person", "name": "Indiana Jane"}, "entity_2": {"type": "Person", "name": "Gobleki Tepe"}, "relationship": "encountered"}
 {"entity_1": {"type": "Person", "name": "Nell Strongarm"}, "entity_2": {"type": "Place", "name": "Toledo"}, "relationship": "active_in"}
